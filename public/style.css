@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  font-size: 24px;
+  color: #f3f3f3;
+  background-color: transparent;
+}
+
+.scoreboard {
+  width: min-content;
+  border: 2px solid teal;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.score {
+  font-size: 64px;
+  padding: 10px;
+}
+
+.controles {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  text-align: center;
+  margin-block-end: 10px;
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}

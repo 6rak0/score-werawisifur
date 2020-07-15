@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marcador</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    G -- P
+    <div class="scoreboard">
+      <div class="win score" style="border-right: 2px solid teal;">-</div>
+      <div class="lose score">-</div>
+    </div>
+    <div class="controles">
+      <button class="btn">win+</button>
+      <button class="btn">lose+</button>
+      <button class="btn">win-</button>
+      <button class="btn">lose-</button>
+      <button class="btn">reset</button>
+    </div>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
